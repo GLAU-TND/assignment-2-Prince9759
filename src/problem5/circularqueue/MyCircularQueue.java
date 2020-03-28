@@ -84,5 +84,20 @@ public class MyCircularQueue {
         this.top = top;
     }
 
+    public int getMaxSize() {
+        return maxSize;
+    }
+
+    public void setMaxSize(int maxSize) {
+        this.maxSize = maxSize;
+    }
+
+    public Student[] getCircularQueue() {
+        return circularQueue;
+    }
+
+    public void setCircularQueue(Student[] circularQueue) {
+        this.circularQueue = circularQueue;
+    }
 }
 

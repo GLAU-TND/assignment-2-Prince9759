@@ -17,4 +17,7 @@ public class MyPriorityQueue {
     public void dequeue(){
         linkedList.deleteFirst();
     }
+    public void show(){
+        linkedList.display();
+    }
 }

@@ -10,4 +10,7 @@ package problem4.myqueue;
 public class MyQueue {
     public void enqueue(int data) {
     }
+
+    public void show() {
+    }
 }

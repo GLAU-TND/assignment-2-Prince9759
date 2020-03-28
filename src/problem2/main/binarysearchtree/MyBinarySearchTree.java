@@ -13,7 +13,7 @@ public class MyBinarySearchTree {
         this.preQueue = preQueue;
         this.postQueue = postQueue;
     }
-    private void insert(int data) {
+    public void insert(int data) {
         TreeNode node = new TreeNode(data);
         if (root == null) {
             root = node;

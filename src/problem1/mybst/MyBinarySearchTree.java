@@ -73,4 +73,21 @@ public class MyBinarySearchTree {
     public void setCountRight(int countRight) {
         this.countRight = countRight;
     }
+    private void Traverse(){
+        TreeNode current=root;
+        TreeNode parent=null;
+        this.countRight=0;
+        while (current!=null){
+            if(current.getLeft()==null){
+                countRight++;
+            }
+            if(parent.getData()<current.getData()){
+                System.out.println(current.getData());
+                current=current.getLeft();
+            }
+            if(parent.getData()>current.getData()){
+                current=current.getRight();
+            }
+        }
+    }
 }

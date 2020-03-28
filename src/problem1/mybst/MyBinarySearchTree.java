@@ -73,7 +73,7 @@ public class MyBinarySearchTree {
     public void setCountRight(int countRight) {
         this.countRight = countRight;
     }
-    private void Traverse(){
+    public void Traverse(){
         TreeNode current=root;
         TreeNode parent=null;
         this.countRight=0;

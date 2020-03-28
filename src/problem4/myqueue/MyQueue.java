@@ -18,6 +18,10 @@ public class MyQueue {
         return mylinkedList.search(data).getData();
     }
     public void enqueue(int data) {
+        mylinkedList.addLast(data);
+    }
+    public void dequeue(){
+        mylinkedList.deleteFirst();
     }
 
     public void show() {

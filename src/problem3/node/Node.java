@@ -12,5 +12,8 @@ public class Node {
     private student data;
     private Node next;
 
-
+    public Node(student data) {
+        this.data = data;
+        this.next=next;
+    }
 }

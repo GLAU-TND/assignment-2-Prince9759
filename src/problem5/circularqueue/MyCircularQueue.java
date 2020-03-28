@@ -15,7 +15,7 @@ public class MyCircularQueue {
     private int top;
     private int maxSize;
     private Student[] circularQueue;
-    public boolean isEmpty(){
+    private boolean isEmpty(){
         return size==0;
     };
 
